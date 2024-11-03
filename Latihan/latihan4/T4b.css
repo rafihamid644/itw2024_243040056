@@ -1,0 +1,86 @@
+* {
+   padding: 0;
+   margin: 0; 
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+}
+body{
+ background-image: url(moroccan-flower.png);
+}
+nav{
+    background: green;
+    height: 70px;
+    width: 100%;
+}
+label.Logo{
+    color: white;
+    font-size: 35px;
+    line-height: 70px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+a:hover{
+    color: black;
+}
+.container {
+    background-color: white; 
+    margin-top: 10px; 
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px; 
+    border-radius: 8px; 
+}
+.hero{
+    height: 450px;
+    background-image: url(brigade.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+.sumber{
+    font-size: 12px;
+    margin-top: 10px;
+    color: gray;
+}
+.content{
+    padding: 20px;
+}
+.content p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.hero2{
+    height: 450px;
+    background-image: url(brigade2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+.footer{
+    background-color: gray;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+.footer p{
+    color: white;
+    margin: 0;
+    font-size: 16px;
+    padding: 7px;
+}
