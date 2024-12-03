@@ -27,6 +27,12 @@
         </header>
 
         <nav class="menu">
+         <div class="menu-toggle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
             <div class="brand">
                 <h1>Niki Merch</h1>
             </div>
@@ -40,9 +46,45 @@
 
         </nav>
 
+        <section class="services">
+            <div class="service">
+                <div class="icon">👌</div>
+                <h3>Best For Sport</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, repellat laboriosam deleniti corrupti dolore hic.</p>
+            </div>
+             <div class="service">
+                <div class="icon">💪</div>
+                <h3>Strong Quality</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, repellat laboriosam deleniti corrupti dolore hic.</p>
+            </div>
+             <div class="service">
+                <div class="icon">🚚</div>
+                <h3>Fast Delivery</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, repellat laboriosam deleniti corrupti dolore hic.</p>
+            </div>
+             <div class="service">
+                <div class="icon">🤑</div>
+                <h3>So Cheap!</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, repellat laboriosam deleniti corrupti dolore hic.</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            
+        </section>
+
 
 
     </div>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+         const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function() {
+         nav.classList.toggle('slide');
+});
+    </script>
     
 </body>
 </html>

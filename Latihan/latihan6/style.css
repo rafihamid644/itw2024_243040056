@@ -50,6 +50,16 @@ nav svg {
 .close-sidebar-button {
   display: none;
 }
+
+.services{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+}
+
+.service{
+    background-color: #fff;
+}
 @media (max-width: 450px) {
   .links-container {
     flex-direction: column;
