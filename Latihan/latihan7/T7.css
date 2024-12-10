@@ -136,7 +136,7 @@ body{
 }
 
 .test img {
-    width: 100px; 
+    width: 120px; 
     height: auto; 
     border-radius: 5px;
     
@@ -188,10 +188,6 @@ h2 {
     border-radius: 3px;
     box-shadow:0 0 0 1px 1px 2px rgba(0, 0, 0, 0.5);
 }    
-.gallery{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
 
 .service .icon{
     font-size: 3em;
