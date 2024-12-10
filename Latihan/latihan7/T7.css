@@ -127,6 +127,25 @@ body{
     transition: all 0.5s;
 
 }
+.test {
+    display: flex; 
+    justify-content:space-evenly; 
+    gap: 2px; 
+    flex-wrap: wrap; 
+    margin-top: 20px; 
+}
+
+.test img {
+    width: 100px; 
+    height: auto; 
+    border-radius: 5px;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
 
 
 /* hamburger menu animation */
